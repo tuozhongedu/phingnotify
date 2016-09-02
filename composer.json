@@ -1,0 +1,31 @@
+{
+    "name": "jiemo/phing-notify",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cong Peijun",
+            "email": "congpeijun@tuozhongedu.com"
+        }
+    ],
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@git.jiemodou.net:jiemo/leanchat.git"
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "congpeijun/leanchat": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jiemo\\": "src"
+        }
+    }
+}
