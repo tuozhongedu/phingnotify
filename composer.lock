@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c09ebb9c3787e9adf744845720985b5f",
-    "content-hash": "49100cb3214ed0fd9a648c594bfa73dc",
+    "hash": "29b18526ae7125ac0e4b0beb6074873c",
+    "content-hash": "753e93c344bc4eeddd2191eb02e3c285",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -162,11 +162,11 @@
         },
         {
             "name": "jiemo/leanchat",
-            "version": "1.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@git.jiemodou.net:jiemo/leanchat.git",
-                "reference": "3f94f8dd9425b3a7733db15896f03abbc7b83908"
+                "reference": "570869a609154fd5f525f37eb2032b3d37c1ac39"
             },
             "require": {
                 "guzzlehttp/guzzle": "~5.3"
@@ -174,7 +174,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Jiemo\\": "src"
+                    "Jiemo\\LeanChat\\": "src"
                 }
             },
             "license": [
@@ -186,7 +186,7 @@
                     "email": "congpeijun@tuozhongedu.com"
                 }
             ],
-            "time": "2016-09-02 08:38:26"
+            "time": "2016-09-02 09:29:54"
         },
         {
             "name": "react/promise",
@@ -236,7 +236,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "jiemo/leanchat": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
