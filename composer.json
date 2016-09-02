@@ -13,15 +13,11 @@
         {
             "type": "vcs",
             "url": "git@git.jiemodou.net:jiemo/leanchat.git"
-        },
-        {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "congpeijun/leanchat": "~1.0"
+        "jiemo/leanchat": "~1.0"
     },
     "autoload": {
         "psr-4": {

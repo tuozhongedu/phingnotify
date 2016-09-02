@@ -4,40 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d44d46a79f2454f56f56c39b8c0c6954",
-    "content-hash": "e37f7ea9ce9db5968966b98ed3afe6b1",
+    "hash": "c09ebb9c3787e9adf744845720985b5f",
+    "content-hash": "49100cb3214ed0fd9a648c594bfa73dc",
     "packages": [
         {
-            "name": "congpeijun/leanchat",
-            "version": "1.0",
-            "source": {
-                "type": "git",
-                "url": "git@git.jiemodou.net:jiemo/leanchat.git",
-                "reference": "b8dfbf597a70ae3c5d675ac6112acd8b99e1b69a"
-            },
-            "require": {
-                "guzzlehttp/guzzle": "~5.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Jiemo\\": "src"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cong Peijun",
-                    "email": "congpeijun@tuozhongedu.com"
-                }
-            ],
-            "time": "2016-08-24 03:17:44"
-        },
-        {
             "name": "guzzlehttp/guzzle",
-            "version": "5.3.x-dev",
+            "version": "5.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
@@ -89,16 +61,16 @@
         },
         {
             "name": "guzzlehttp/ringphp",
-            "version": "dev-master",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/RingPHP.git",
-                "reference": "9465032ac5d6beaa55f10923403e6e1c36018d9c"
+                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/guzzle/RingPHP/9465032ac5d6beaa55f10923403e6e1c36018d9c.zip",
-                "reference": "9465032ac5d6beaa55f10923403e6e1c36018d9c",
+                "url": "https://packagist.phpcomposer.com/files/guzzle/RingPHP/dbbb91d7f6c191e5e405e900e3102ac7f261bc0b.zip",
+                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
                 "shasum": ""
             },
             "require": {
@@ -136,20 +108,20 @@
                 }
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
-            "time": "2015-05-21 17:23:02"
+            "time": "2015-05-20 03:37:09"
         },
         {
             "name": "guzzlehttp/streams",
-            "version": "dev-master",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/streams.git",
-                "reference": "d99a261c616210618ab94fd319cb17eda458cc3e"
+                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/guzzle/streams/d99a261c616210618ab94fd319cb17eda458cc3e.zip",
-                "reference": "d99a261c616210618ab94fd319cb17eda458cc3e",
+                "url": "https://packagist.phpcomposer.com/files/guzzle/streams/47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5.zip",
+                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
                 "shasum": ""
             },
             "require": {
@@ -186,20 +158,48 @@
                 "Guzzle",
                 "stream"
             ],
-            "time": "2016-04-13 16:32:01"
+            "time": "2014-10-12 19:18:40"
+        },
+        {
+            "name": "jiemo/leanchat",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@git.jiemodou.net:jiemo/leanchat.git",
+                "reference": "3f94f8dd9425b3a7733db15896f03abbc7b83908"
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jiemo\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cong Peijun",
+                    "email": "congpeijun@tuozhongedu.com"
+                }
+            ],
+            "time": "2016-09-02 08:38:26"
         },
         {
             "name": "react/promise",
-            "version": "2.x-dev",
+            "version": "v2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise.git",
-                "reference": "d3d5fdeadbb8489f73d74b8ec6bca1d3eb521d90"
+                "reference": "8025426794f1944de806618671d4fa476dc7626f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/reactphp/promise/d3d5fdeadbb8489f73d74b8ec6bca1d3eb521d90.zip",
-                "reference": "d3d5fdeadbb8489f73d74b8ec6bca1d3eb521d90",
+                "url": "https://packagist.phpcomposer.com/files/reactphp/promise/8025426794f1944de806618671d4fa476dc7626f.zip",
+                "reference": "8025426794f1944de806618671d4fa476dc7626f",
                 "shasum": ""
             },
             "require": {
@@ -230,12 +230,12 @@
                 }
             ],
             "description": "A lightweight implementation of CommonJS Promises/A for PHP",
-            "time": "2016-05-09 07:16:19"
+            "time": "2016-05-03 17:50:52"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
