@@ -4,16 +4,16 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "064ab034535e17813857a2feaaf52d2c",
-    "content-hash": "244eaa22fbf9a3ef0ac8db712fa2714b",
+    "hash": "d44d46a79f2454f56f56c39b8c0c6954",
+    "content-hash": "e37f7ea9ce9db5968966b98ed3afe6b1",
     "packages": [
         {
             "name": "congpeijun/leanchat",
-            "version": "dev-master",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "git@git.jiemodou.net:jiemo/leanchat.git",
-                "reference": "95187919375ee5682816e50c0d8192b56f47256f"
+                "reference": "b8dfbf597a70ae3c5d675ac6112acd8b99e1b69a"
             },
             "require": {
                 "guzzlehttp/guzzle": "~5.3"
@@ -33,7 +33,7 @@
                     "email": "congpeijun@tuozhongedu.com"
                 }
             ],
-            "time": "2016-08-24 03:23:19"
+            "time": "2016-08-24 03:17:44"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -236,9 +236,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "congpeijun/leanchat": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

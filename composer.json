@@ -21,7 +21,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "congpeijun/leanchat": "dev-master"
+        "congpeijun/leanchat": "~1.0"
     },
     "autoload": {
         "psr-4": {
