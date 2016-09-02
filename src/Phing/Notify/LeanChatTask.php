@@ -36,6 +36,7 @@ class LeanChatTask extends Task
     private $notifierAvatar = null;
     private $contentTitle = null;
     private $contentDesc = null;
+    private $contentUrl = null;
 
     private function notify()
     {
@@ -47,12 +48,12 @@ class LeanChatTask extends Task
         $attachment = new Attachment();
         $attachment->color = $this->color;
         $attachment->title = $this->contentTitle;
-        $attachment->description = $contentDesct;
+        $attachment->description = $this->contentDesc;
+        $attachment->url = $this->contentUrl;
+
         $body->addAttachment($attachment);
         $client = new Client($this->url);
         $return = $client->send($body);
-
-        print_r($return);
     }
 
 
@@ -71,7 +72,7 @@ class LeanChatTask extends Task
     {
         $this->notify();
     }
- 
+
     /**
      * Sets the The message passed in the buildfile.
      *
@@ -84,7 +85,7 @@ class LeanChatTask extends Task
         $this->title = $title;
         return $this;
     }
- 
+
     /**
      * Sets the value of channel.
      *
@@ -97,7 +98,7 @@ class LeanChatTask extends Task
         $this->channel = $channel;
         return $this;
     }
- 
+
     /**
      * Sets the Notify color.
      *
@@ -110,7 +111,7 @@ class LeanChatTask extends Task
         $this->color = $color;
         return $this;
     }
- 
+
     /**
      * Sets the hook url.
      *
@@ -123,7 +124,7 @@ class LeanChatTask extends Task
         $this->url = $url;
         return $this;
     }
- 
+
     /**
      * Sets the notifier.
      *
@@ -136,7 +137,7 @@ class LeanChatTask extends Task
         $this->notifierName = $notifierName;
         return $this;
     }
- 
+
     /**
      * Sets the value of notifierAvatar.
      *
@@ -149,7 +150,7 @@ class LeanChatTask extends Task
         $this->notifierAvatar = $notifierAvatar;
         return $this;
     }
- 
+
     /**
      * Sets the value of contentTitle.
      *
@@ -162,7 +163,7 @@ class LeanChatTask extends Task
         $this->contentTitle = $contentTitle;
         return $this;
     }
- 
+
     /**
      * Sets the value of contentDesc.
      *
@@ -173,6 +174,12 @@ class LeanChatTask extends Task
     public function setContentDesc($contentDesc)
     {
         $this->contentDesc = $contentDesc;
+        return $this;
+    }
+
+    public function setContentUrl($url)
+    {
+        $this->contentUrl = $url;
         return $this;
     }
 }
