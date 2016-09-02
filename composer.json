@@ -15,9 +15,9 @@
             "url": "git@git.jiemodou.net:jiemo/leanchat.git"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
-        "jiemo/leanchat": "dev-master"
+        "jiemo/leanchat": "~1.0"
     },
     "autoload": {
         "psr-4": {
