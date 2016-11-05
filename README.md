@@ -1,0 +1,2 @@
+# phingnotify
+Phing notify task
