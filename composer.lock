@@ -187,16 +187,16 @@
         },
         {
             "name": "jiemo/leanchat",
-            "version": "2.0",
+            "version": "2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tuozhongedu/leanchat.git",
-                "reference": "f5dfbd5ba7a35e0b55d8b4120189679ed4bf4e2d"
+                "reference": "9d3494117d0f6ec3bb1b188596937d2158df7c08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/tuozhongedu/leanchat/f5dfbd5ba7a35e0b55d8b4120189679ed4bf4e2d.zip",
-                "reference": "f5dfbd5ba7a35e0b55d8b4120189679ed4bf4e2d",
+                "url": "https://packagist.phpcomposer.com/files/tuozhongedu/leanchat/9d3494117d0f6ec3bb1b188596937d2158df7c08.zip",
+                "reference": "9d3494117d0f6ec3bb1b188596937d2158df7c08",
                 "shasum": ""
             },
             "require": {
@@ -218,7 +218,7 @@
                     "email": "congpeijun@tuozhongedu.com"
                 }
             ],
-            "time": "2017-01-04 06:11:16"
+            "time": "2017-01-04 08:20:43"
         },
         {
             "name": "psr/http-message",
