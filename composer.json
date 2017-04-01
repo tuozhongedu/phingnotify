@@ -17,7 +17,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "jiemo/leanchat": "~2.0"
+        "jiemo/leanchat": "~2.0",
+        "thibaud-dauce/mattermost-php": "^1.0"
     },
     "autoload": {
         "psr-4": {
